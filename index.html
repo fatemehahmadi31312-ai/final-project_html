@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travel agency website for discovering beautiful destinations.">
+    <meta name="keywords" content="TTravel, Tourism, Tours, Hotels">
+    <meta name="author" content="Fatemeh Ahmadi">
+    <title>Travel With Us</title>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    text-align: right;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.banner h1 {
+    font-size: 45px;
+    padding-top: 100px;
+}
+
+.banner p {
+    font-size: 22px;
+}
+
+.banner a {
+    background-color: #D97706;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+}
+#introduction h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+}
+#introduction p {
+      text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+}
+.intrior {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+.intrior h2 {
+    font-size: 30px;
+    color: #D97706;
+    margin-bottom: 30px;
+}
+
+.service-box {
+    
+    display: inline-block;
+    width: 22%;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.service-box h3 {
+    color: #D97706;
+}
+
+.service-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.service-box p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+ .why-us {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.why-us h2 {
+    color: #D97706;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.reason-box img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.reason-box {
+    display: inline-block;
+    width: 27%;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.reason-box h3 {
+    color: #D97706;
+}
+
+.reason-box p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #D97706;
+    color: white;
+}
+
+td {
+    color: #333;
+}
+table tr:hover {
+    background-color: #fce3c2;
+    cursor: pointer;
+}
+.booking {
+    text-align: center;
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+.booking h2 {
+    color: #D97706;
+    font-size: 30px;
+}
+
+.booking form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.booking label {
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.booking input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.booking input[type="submit"] {
+    background-color: #D97706;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+.booking select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+</style>
+
+</head>
+<body>
+<header>
+
+    <div class="banner">
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Tour Packages</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <h1>Explore The Afghanistan With Us</h1>
+
+        <p>Discover Beautiful Places Around The Afghanistan Country</p>
+
+        <a href="#">Explore Now</a>
+    </div>
+</header>
+    <main>
+    <section id="introduction">
+    <h2>Discover the Afghanistan with Travel With Us</h2>
+
+    <p>
+        With over 20 years of experience in the travel industry,
+        Travel With Us is dedicated to making every journey
+        comfortable, enjoyable, and unforgettable.
+        We offer travel services across Afghanistan and
+        international destinations, helping our customers
+        explore new places and create beautiful memories.
+    </p>
+<section class="intrior">
+
+    <h2>Explore Beautiful Afghanistan</h2>
+
+    <div class="service-box">
+
+        <h3>Explore Bamiyan</h3>
+
+        <img src="images/bamiyan (1).jpg" alt="Bamiyan">
+
+        <p>
+            Discover the natural beauty and rich history of Bamiyan,
+            a region known for its beautiful valleys and mountains.
+        </p>
+
+    </div>
+
+    <div class="service-box">
+
+        <h3>Visit Herat Citadel</h3>
+
+        <img src="images/Herat.jpg" alt="Herat Citadel">
+
+        <p>
+            Explore the historic Qala Ikhtiyaruddin and discover
+            the history and architecture of Herat.
+        </p>
+
+    </div>
+
+    <div class="service-box">
+
+        <h3>Discover Mazar_Sharif</h3>
+
+        <img src="images/mazar.jpg" alt="Band-e-Amir">
+
+        <p>
+            Enjoy the beautiful blue lakes and mountain scenery
+            of Afghanistan's first national park.
+        </p>
+
+    </div>
+    <div class="service-box">
+
+        <h3>Discover Ghazni</h3>
+
+        <img src="images/Ghazni.jpg" alt="Band-e-Amir">
+
+        <p>
+            Enjoy the beautiful blue lakes and mountain scenery
+            of Afghanistan's first national park.
+        </p>
+
+    </div>
+   
+</section>
+  <section class="why-us">
+
+    <h2>Why Choose Us?</h2>
+
+    <div class="reason-box">
+        <img src="images/exprience.png">
+        <h3>20+ Years of Experience</h3>
+        <p>
+            With more than 20 years of experience,
+            we make your journeys memorable.
+        </p>
+    </div>
+
+    <div class="reason-box">
+        <img src="images/safe.png">
+        <h3>Safe & Comfortable</h3>
+        <p>
+            We care about your safety and comfort
+            throughout your journey.
+        </p>
+    </div>
+
+    <div class="reason-box">
+        <img src="images/tour service.png" >
+        <h3>Domestic Travel Services</h3>
+        <p>
+        We offer travel services across Afghanistan and help you explore its beautiful destinations.
+        </p>
+    </div>
+ <table>
+        <tr>
+            <th>Destination</th>
+            <th>Duration</th>
+            <th>Price</th>
+            <th>Package</th>
+        </tr>
+
+        <tr>
+            <td>Bamiyan</td>
+            <td>14 Days</td>
+            <td>5500 AF</td>
+            <td>Standard</td>
+        </tr>
+
+        <tr>
+            <td>Herat</td>
+            <td>7 Days</td>
+            <td>4000AF</td>
+            <td>Basic</td>
+        </tr>
+
+        <tr>
+            <td>Mazar_Sharif</td>
+            <td>14 Days</td>
+            <td>6000AF</td>
+            <td>Premium</td>
+        </tr>
+        <tr>
+            <td>Ghazni</td>
+            <td>7 Days</td>
+            <td>4000AF</td>
+            <td>Basic</td>
+        </tr>
+
+    </table>
+<section class="booking">
+
+    <h2>Book Your Trip</h2>
+
+    <p>Fill out the form below to plan your next adventure.</p>
+
+    <form>
+
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+       <label for="destination">Choose Your Destination:</label>
+
+        <select id="destination" name="destination">
+
+        <option value="">Select a Province</option>
+        <option value="Herat">Herat</option>
+        <option value="Bamiyan">Bamiyan</option>
+        <option value="Kabul">Kabul</option>
+        <option value="Kabul">Ghazni</option>
+
+</select>
+        <label for="date">Travel Date:</label>
+        <input type="date" id="date" name="date">
+
+        <label for="people">Number of Travelers:</label>
+        <input type="number" id="people" name="people" min="1" placeholder="Number of people">
+
+        <input type="submit" value="Book Now">
+
+    </form>
+
+</section>
+</section>
+</section>
+    </main>
+    <footer>
+    <p>&copy; 2026 Travel With Us. All Rights Reserved.</p>
+    <p>Designed by Fatemeh Ahmadi</p>
+    </footer>
+</body>
+</html>
